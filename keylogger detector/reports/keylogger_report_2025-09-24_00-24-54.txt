@@ -1,0 +1,117 @@
+ALERT: Possible threats detected!
+
+Processes with active network connections:
+  - Name: System Idle Process (PID: 0)
+    - Connection to: 216.24.57.251:443
+    - Connection to: 216.24.57.251:443
+    - Connection to: 172.64.144.98:443
+    - Connection to: 216.24.57.251:443
+    - Connection to: 20.199.39.224:443
+    - Connection to: 216.24.57.251:443
+    - Connection to: 216.24.57.251:443
+    - Connection to: 140.82.112.21:443
+  - Name: LockApp.exe (PID: 1740)
+    - Connection to: 23.205.80.11:443
+    - Connection to: 23.205.80.11:443
+    - Connection to: 223.196.17.11:443
+    - Connection to: 23.38.59.250:80
+    - Connection to: 23.38.59.250:80
+    - Connection to: 223.196.17.11:443
+    - Connection to: 23.212.254.80:443
+  - Name: explorer.exe (PID: 2020)
+    - Connection to: 40.104.66.178:443
+    - Connection to: 52.98.57.162:443
+  - Name: svchost.exe (PID: 5324)
+    - Connection to: 4.213.25.240:443
+  - Name: Notion.exe (PID: 5344)
+    - Connection to: 208.103.161.1:443
+    - Connection to: 34.110.164.207:443
+    - Connection to: 208.103.161.1:443
+  - Name: TabNine.exe (PID: 7264)
+    - Connection to: 34.170.65.59:443
+  - Name: chrome.exe (PID: 13128)
+    - Connection to: 142.251.12.188:5228
+  - Name: WD-TabNine.exe (PID: 16304)
+    - Connection to: 34.170.65.59:443
+  - Name: MSPCManagerCore.exe (PID: 17108)
+    - Connection to: 52.188.247.148:443
+  - Name: TabNine.exe (PID: 18484)
+    - Connection to: 34.123.33.186:443
+    - Connection to: 34.123.33.186:443
+    - Connection to: 34.170.65.59:443
+    - Connection to: 34.123.33.186:443
+    - Connection to: 34.123.33.186:443
+    - Connection to: 34.123.33.186:443
+  - Name: Code.exe (PID: 20944)
+    - Connection to: 140.82.112.21:443
+    - Connection to: 216.24.57.251:443
+    - Connection to: 20.199.39.224:443
+    - Connection to: 216.24.57.251:443
+  - Name: TabNine.exe (PID: 21104)
+    - Connection to: 34.123.33.186:443
+    - Connection to: 34.170.65.59:443
+  - Name: Code.exe (PID: 22064)
+    - Connection to: 20.199.39.224:443
+    - Connection to: 52.182.143.209:443
+
+Processes with unusual file paths:
+  - Name: Notion.exe (PID: 2224)
+    - Path: C:\Users\laptop\AppData\Local\Programs\Notion\Notion.exe
+  - Name: Notion.exe (PID: 3224)
+    - Path: C:\Users\laptop\AppData\Local\Programs\Notion\Notion.exe
+  - Name: Code.exe (PID: 3324)
+    - Path: C:\Users\laptop\AppData\Local\Programs\Microsoft VS Code\Code.exe
+  - Name: Notion.exe (PID: 4980)
+    - Path: C:\Users\laptop\AppData\Local\Programs\Notion\Notion.exe
+  - Name: Notion.exe (PID: 5344)
+    - Path: C:\Users\laptop\AppData\Local\Programs\Notion\Notion.exe
+  - Name: Code.exe (PID: 5916)
+    - Path: C:\Users\laptop\AppData\Local\Programs\Microsoft VS Code\Code.exe
+  - Name: TabNine.exe (PID: 7264)
+    - Path: C:\Users\laptop\AppData\Roaming\Code\User\globalStorage\tabnine.tabnine-vscode\binaries\4.304.0\x86_64-pc-windows-msvc\TabNine.exe
+  - Name: Notion.exe (PID: 10464)
+    - Path: C:\Users\laptop\AppData\Local\Programs\Notion\Notion.exe
+  - Name: Code.exe (PID: 11436)
+    - Path: C:\Users\laptop\AppData\Local\Programs\Microsoft VS Code\Code.exe
+  - Name: Code.exe (PID: 12556)
+    - Path: C:\Users\laptop\AppData\Local\Programs\Microsoft VS Code\Code.exe
+  - Name: Code.exe (PID: 12784)
+    - Path: C:\Users\laptop\AppData\Local\Programs\Microsoft VS Code\Code.exe
+  - Name: Code.exe (PID: 13556)
+    - Path: C:\Users\laptop\AppData\Local\Programs\Microsoft VS Code\Code.exe
+  - Name: Code.exe (PID: 13988)
+    - Path: C:\Users\laptop\AppData\Local\Programs\Microsoft VS Code\Code.exe
+  - Name: Code.exe (PID: 14536)
+    - Path: C:\Users\laptop\AppData\Local\Programs\Microsoft VS Code\Code.exe
+  - Name: TabNine-deep-cloud.exe (PID: 16012)
+    - Path: C:\Users\laptop\AppData\Roaming\Code\User\globalStorage\tabnine.tabnine-vscode\binaries\4.304.0\x86_64-pc-windows-msvc\TabNine-deep-cloud.exe
+  - Name: WD-TabNine.exe (PID: 16304)
+    - Path: C:\Users\laptop\AppData\Roaming\Code\User\globalStorage\tabnine.tabnine-vscode\binaries\4.304.0\x86_64-pc-windows-msvc\WD-TabNine.exe
+  - Name: Code.exe (PID: 16708)
+    - Path: C:\Users\laptop\AppData\Local\Programs\Microsoft VS Code\Code.exe
+  - Name: Notion.exe (PID: 17564)
+    - Path: C:\Users\laptop\AppData\Local\Programs\Notion\Notion.exe
+  - Name: TabNine.exe (PID: 18484)
+    - Path: C:\Users\laptop\AppData\Roaming\Code\User\globalStorage\tabnine.tabnine-vscode\binaries\4.304.0\x86_64-pc-windows-msvc\TabNine.exe
+  - Name: Notion.exe (PID: 18884)
+    - Path: C:\Users\laptop\AppData\Local\Programs\Notion\Notion.exe
+  - Name: Notion.exe (PID: 19104)
+    - Path: C:\Users\laptop\AppData\Local\Programs\Notion\Notion.exe
+  - Name: python.exe (PID: 19500)
+    - Path: C:\Users\laptop\AppData\Local\Programs\Python\Python313\python.exe
+  - Name: Code.exe (PID: 19872)
+    - Path: C:\Users\laptop\AppData\Local\Programs\Microsoft VS Code\Code.exe
+  - Name: Notion.exe (PID: 20252)
+    - Path: C:\Users\laptop\AppData\Local\Programs\Notion\Notion.exe
+  - Name: Code.exe (PID: 20632)
+    - Path: C:\Users\laptop\AppData\Local\Programs\Microsoft VS Code\Code.exe
+  - Name: Code.exe (PID: 20784)
+    - Path: C:\Users\laptop\AppData\Local\Programs\Microsoft VS Code\Code.exe
+  - Name: Code.exe (PID: 20944)
+    - Path: C:\Users\laptop\AppData\Local\Programs\Microsoft VS Code\Code.exe
+  - Name: TabNine.exe (PID: 21104)
+    - Path: C:\Users\laptop\AppData\Roaming\Code\User\globalStorage\tabnine.tabnine-vscode\binaries\4.304.0\x86_64-pc-windows-msvc\TabNine.exe
+  - Name: Code.exe (PID: 22064)
+    - Path: C:\Users\laptop\AppData\Local\Programs\Microsoft VS Code\Code.exe
+  - Name: Code.exe (PID: 22304)
+    - Path: C:\Users\laptop\AppData\Local\Programs\Microsoft VS Code\Code.exe
